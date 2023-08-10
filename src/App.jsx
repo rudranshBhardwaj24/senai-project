@@ -1,5 +1,13 @@
+import Body from "./Body";
+import HumidityCard from "./HumidityCard";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <Body />
+      <HumidityCard />
+    </>
+  );
 }
 
 export default App;
